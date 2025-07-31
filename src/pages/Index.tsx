@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import Preloader from "@/components/Preloader";
 import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import ContactSection from "@/components/ContactSection";
+import AboutBotsSection from "@/components/AboutBotsSection";
+import BotsShowcaseSection from "@/components/BotsShowcaseSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import PricingSection from "@/components/PricingSection";
+import PaymentContactSection from "@/components/PaymentContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -42,9 +44,11 @@ const Index = () => {
       {showContent && (
         <main className="relative">
           <HeroSection />
-          <AboutSection />
-          <ProjectsSection />
-          <ContactSection />
+          <AboutBotsSection />
+          <BotsShowcaseSection />
+          <TestimonialsSection />
+          <PricingSection />
+          <PaymentContactSection />
           <Footer />
         </main>
       )}

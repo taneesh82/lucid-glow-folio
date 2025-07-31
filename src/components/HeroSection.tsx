@@ -102,18 +102,17 @@ const HeroSection = () => {
             ref={headlineRef}
             className="text-5xl lg:text-7xl font-bold leading-tight"
           >
-            Hi, I'm{" "}
-            <span className="text-gradient-cyber">Milad</span>
+            <span className="text-gradient-cyber">Quantum FX</span>
             <br />
-            <span className="text-gradient-quantum">Web Developer</span>
+            <span className="text-gradient-quantum">AI-Powered Forex Bots</span>
           </h1>
           
           <p 
             ref={subtitleRef}
             className="text-lg lg:text-xl text-muted-foreground max-w-lg leading-relaxed"
           >
-            Crafting immersive digital experiences with cutting-edge technology. 
-            Specialized in React, GSAP animations, and modern web development.
+            Trade Smarter. Sleep Better. Let our advanced AI algorithms handle 
+            your Forex trading 24/7 while you focus on what matters most.
           </p>
           
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -123,7 +122,7 @@ const HeroSection = () => {
               onMouseEnter={handleCTAHover}
               onMouseLeave={handleCTALeave}
             >
-              Hire Me
+              Get Started
             </Button>
             <Button 
               variant="outline"
@@ -132,7 +131,7 @@ const HeroSection = () => {
               onMouseEnter={handleCTAHover}
               onMouseLeave={handleCTALeave}
             >
-              View Projects
+              View Bots
             </Button>
           </div>
         </div>

@@ -81,10 +81,10 @@ const Preloader = ({ onComplete }: PreloaderProps) => {
         {/* Animated logo/name */}
         <div ref={logoRef} className="mb-12">
           <h1 className="text-6xl font-bold mb-4">
-            <span className="text-gradient-cyber">MILAD</span>
+            <span className="text-gradient-cyber">QUANTUM</span> <span className="text-gradient-quantum">FX</span>
           </h1>
           <p className="text-muted-foreground text-lg font-light tracking-wide">
-            Crafting Digital Experiences
+            AI-Powered Forex Trading Bots
           </p>
         </div>
 
