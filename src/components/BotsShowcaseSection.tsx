@@ -31,7 +31,8 @@ const BotsShowcaseSection = () => {
       platforms: ["MT4", "MT5"],
       description: "Lightning-fast scalping bot for quick profits on EUR/USD and GBP/USD pairs.",
       price: "$299",
-      color: "from-cyber-cyan to-cyber-blue"
+      color: "from-cyber-cyan to-cyber-blue",
+      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=300&fit=crop"
     },
     {
       id: 2,
@@ -44,7 +45,8 @@ const BotsShowcaseSection = () => {
       platforms: ["MT4", "MT5", "cTrader"],
       description: "Advanced neural network that identifies and follows major market trends.",
       price: "$499",
-      color: "from-cyber-purple to-cyber-pink"
+      color: "from-cyber-purple to-cyber-pink",
+      image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=300&fit=crop"
     },
     {
       id: 3,
@@ -57,7 +59,8 @@ const BotsShowcaseSection = () => {
       platforms: ["MT4", "MT5"],
       description: "Perfect for capturing medium-term price movements with optimal entry/exit points.",
       price: "$399",
-      color: "from-green-500 to-cyber-cyan"
+      color: "from-green-500 to-cyber-cyan",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop"
     },
     {
       id: 4,
@@ -70,7 +73,8 @@ const BotsShowcaseSection = () => {
       platforms: ["Binance", "Coinbase"],
       description: "Exploits price differences across cryptocurrency exchanges for guaranteed profits.",
       price: "$699",
-      color: "from-orange-500 to-cyber-purple"
+      color: "from-orange-500 to-cyber-purple",
+      image: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=400&h=300&fit=crop"
     },
     {
       id: 5,
@@ -83,7 +87,8 @@ const BotsShowcaseSection = () => {
       platforms: ["MT4", "MT5"],
       description: "Sophisticated grid system that profits from market volatility in ranging markets.",
       price: "$599",
-      color: "from-red-500 to-cyber-pink"
+      color: "from-red-500 to-cyber-pink",
+      image: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=400&h=300&fit=crop"
     },
     {
       id: 6,
@@ -96,7 +101,8 @@ const BotsShowcaseSection = () => {
       platforms: ["MT4", "MT5", "cTrader"],
       description: "Reacts to economic news and events within milliseconds for maximum profit.",
       price: "$799",
-      color: "from-cyber-blue to-cyber-purple"
+      color: "from-cyber-blue to-cyber-purple",
+      image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=400&h=300&fit=crop"
     }
   ];
 

@@ -136,20 +136,21 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right side - Spline 3D Model */}
+        {/* Right side - Spline 3D Robot Model */}
         <div 
           ref={splineRef}
           className="relative flex items-center justify-center"
         >
           <div className="relative w-full max-w-lg aspect-square">
-            {/* Placeholder for Spline embed - you can replace with actual embed */}
+            {/* Spline 3D Robot Model */}
             <iframe 
-              src="https://my.spline.design/untitled-06a25a3b8c1b91eb654de2a9b4ff8e40/" 
+              src="https://my.spline.design/r4xbot-WFbjxu8R5LNR2KMlqZUMThKh/" 
               frameBorder="0" 
               width="100%" 
               height="100%"
               className="rounded-2xl"
               style={{ minHeight: '500px' }}
+              title="Quantum FX Trading Robot"
             ></iframe>
             
             {/* Glow effect behind Spline */}

@@ -30,7 +30,7 @@ const PaymentContactSection = () => {
   const paymentMethods = {
     upi: {
       id: "quantum-fx@upi",
-      qrCode: "/lovable-uploads/c84a0497-a05b-4730-aa0c-c334b9231037.png", // Using uploaded image as QR placeholder
+      qrCode: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=200&h=200&fit=crop", // QR code placeholder
       name: "UPI Payment"
     },
     crypto: {
