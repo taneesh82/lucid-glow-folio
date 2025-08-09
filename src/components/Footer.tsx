@@ -92,23 +92,32 @@ const Footer = () => {
           {/* Logo/Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold mb-2">
-              <span className="text-gradient-cyber">MILAD</span>
+              <span className="text-gradient-cyber">QuantumFx</span>
             </h3>
             <p className="text-muted-foreground">
-              Web Developer & Digital Artist
+              Professional EA Creator
             </p>
           </div>
 
           {/* Navigation */}
           <div className="text-center">
             <nav className="flex flex-wrap justify-center gap-6">
-              {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+              {[
+                { name: 'Home', href: '#hero' },
+                { name: 'Bots', href: '#bots' },
+                { name: 'Pricing', href: '#pricing' },
+                { name: 'Contact', href: '#contact' }
+              ].map((item) => (
                 <a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
-                  className="text-muted-foreground hover:text-cyber-cyan transition-colors duration-300 relative group"
+                  key={item.name}
+                  href={item.href}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector(item.href)?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="text-muted-foreground hover:text-cyber-cyan transition-colors duration-300 relative group cursor-pointer"
                 >
-                  {item}
+                  {item.name}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyber-cyan transition-all duration-300 group-hover:w-full"></span>
                 </a>
               ))}
@@ -155,7 +164,7 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Milad. All rights reserved.
+            © {currentYear} QuantumFx. All rights reserved.
           </p>
           
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
